@@ -2,9 +2,9 @@
 seeds = false
 skip-lint = false
 [programs.localnet]
-counter = "5hQqocDNe31fpbTQcWZaYHVfGpqx6qUukSa2tkdiQqNw"
-hello_world = "GhmjxBpwS2J9EbiBW7PxJHrJwsHJSYkQvb3L9GM15su3"
-lottery ="8h2K1hE1azCpLKFYN23vPNWFHtMpCBTeueh2tpUC3H4"
+counter = "9MGFR88uofDVcjHx3hoy2jmRtcnfMdQUbYRHCFFJFuXC"
+hello_world = "A1zvqBnV7LPeCmSVg15CpFVUz8XEUh7aaGQwSB3WujgY"
+lottery ="9FGeLV2TcxMR8sx8qjojzCU9Tk25NiUF1G9ZXDNjXy31"
 [registry]
 url = "https://api.apr.dev"
 
