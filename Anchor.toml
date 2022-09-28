@@ -1,0 +1,19 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+counter = "5hQqocDNe31fpbTQcWZaYHVfGpqx6qUukSa2tkdiQqNw"
+hello_world = "GhmjxBpwS2J9EbiBW7PxJHrJwsHJSYkQvb3L9GM15su3"
+lottery ="8h2K1hE1azCpLKFYN23vPNWFHtMpCBTeueh2tpUC3H4"
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/cleon/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+hello_world = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/hello_world.ts"
+lottery = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/lottery.ts"
+counter = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/counter.ts"
