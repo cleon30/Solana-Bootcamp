@@ -28,7 +28,6 @@
   - 5.4 [Advanced Counter](#54-advanced-counter)
   - 5.5 [Lottery](#55-lottery-)
 
-5. 
 ## **1. Presentation**
 
 ## **2. Introduction**
