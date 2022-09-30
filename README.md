@@ -15,15 +15,16 @@
 
 ## Table of Contents
 
-[Presentation](#presentation) 
+1. [Presentation](#presentation) 
 
-[Introduction](#introduction) 
+2. [Introduction](#introduction) 
 
-[Requirements/Installation](#requirements/installation) 
+3. [Requirements/Installation](#requirements/installation) 
 
-[Introduction](#introduction) 
+4. [Introduction](#introduction) 
 
-[Introduction](#introduction) 
+5. [Introduction](#introduction) 
+6. 
 ## **Presentation**
 
 ## **Introduction**
