@@ -15,28 +15,30 @@
 
 ## Table of Contents
 
-- 1 [Presentation](#presentation) 
-- 2 [Introduction](#introduction) 
-- 3 [Requirements/Installation](#requirementsinstallation) 
-- 4 [Command Line Interface(CLI)](#command-line-interfacecli) 
-  - 4.1 [Getting Started with your Anchor project!](#getting-started-with-your-anchor-project) 
-  - 4.2 [Working on localhost](#working-on-localhost)
-  - 4.3 [Fungible Tokens](#fungible-tokens)
-  - 4.4 [Non Fungible Tokens(NFT)](#non-fungible-tokensnft)
-6. 
-## **Presentation**
+- 1 [Presentation](#1-presentation) 
+- 2 [Introduction](#2-introduction) 
+- 3 [Requirements/Installation](#3-requirementsinstallation) 
+- 4 [Command Line Interface(CLI)](#4-command-line-interfacecli) 
+  - 4.1 [Getting Started with your Anchor project!](#41-getting-started-with-your-anchor-project) 
+  - 4.2 [Working on localhost](#42-working-on-localhost)
+  - 4.3 [Fungible Tokens](#43-fungible-tokens)
+  - 4.4 [Non Fungible Tokens(NFT)](#44-non-fungible-tokensnft)
 
-## **Introduction**
 
-## **Requirements/Installation**
+5. 
+## **1. Presentation**
 
-## **Command Line Interface(CLI)**
+## **2. Introduction**
 
-### **Getting Started with your Anchor project!**
+## **3. Requirements/Installation**
 
-### **Working on localhost**
+## **4. Command Line Interface(CLI)**
 
-### **Fungible Tokens**
+### **4.1 Getting Started with your Anchor project!**
 
-### **Non Fungible Tokens(NFT)**
+### **4.2 Working on localhost**
+
+### **4.3 Fungible Tokens**
+
+### **4.4 Non Fungible Tokens(NFT)**
 
