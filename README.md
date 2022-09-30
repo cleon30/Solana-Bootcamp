@@ -15,10 +15,10 @@
 
 ## Table of Contents
 
-- 1. [Presentation](#presentation) 
-- 2. [Introduction](#introduction) 
-- 3. [Requirements/Installation](#requirementsinstallation) 
-- 4. [Command Line Interface(CLI)](#command-line-interfacecli) 
+- 1 [Presentation](#presentation) 
+- 2 [Introduction](#introduction) 
+- 3 [Requirements/Installation](#requirementsinstallation) 
+- 4 [Command Line Interface(CLI)](#command-line-interfacecli) 
   - 4.1 [Getting Started with your Anchor project!](#introduction) 
   - 4.2 [Getting Started with your Anchor project!](#introduction)
   - 4.3 [Getting Started with your Anchor project!](#introduction)
