@@ -62,17 +62,13 @@ We will have to open an empty folder that will be used for our Solana Project. A
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/62452212/193342404-d9945fb0-d496-4d88-a2af-932748719fcd.png">
 
-Nice, now let's Initialize our Anchor Environment! For our CLI commands will not be necessary at all, but will be useful in order to know where is your Solana Wallet inside your computer.
+Nice, now let's Initialize our Anchor Environment! For our CLI commands will not be necessary at all, but will be useful in order to know where is your Solana Wallet inside your computer. And in the Anchor.toml file we will see where is our wallet located.
 
 ```bash
 anchor init hello-world
 ```
 
-<img width="450" alt="image" src="https://user-images.githubusercontent.com/62452212/193345096-80f4bd9d-f754-40c3-acfa-5962beff67e5.png">
-
-And in the Anchor.toml file we will see where is our wallet located.
-
-<img width="450" alt="image" src="https://user-images.githubusercontent.com/62452212/193343642-9c567245-ac3e-4479-9cd9-9631b4cf0d4c.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/62452212/193345096-80f4bd9d-f754-40c3-acfa-5962beff67e5.png"><img width="450" alt="image" src="https://user-images.githubusercontent.com/62452212/193343642-9c567245-ac3e-4479-9cd9-9631b4cf0d4c.png">
 
 Good! Now we are ready to play with CLI commands :) 
 
