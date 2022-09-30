@@ -68,11 +68,11 @@ Nice, now let's Initialize our Anchor Environment! For our CLI commands will not
 anchor init hello-world
 ```
 
-![image](https://user-images.githubusercontent.com/62452212/193344777-b8dceae0-89e2-480a-9cdc-9b9a7608ecc3.png)
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/62452212/193345096-80f4bd9d-f754-40c3-acfa-5962beff67e5.png">
 
 And in the Anchor.toml file we will see where is our wallet located.
 
-<img width="914" alt="image" src="https://user-images.githubusercontent.com/62452212/193343642-9c567245-ac3e-4479-9cd9-9631b4cf0d4c.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/62452212/193343642-9c567245-ac3e-4479-9cd9-9631b4cf0d4c.png">
 
 Good! Now we are ready to play with CLI commands :) 
 
