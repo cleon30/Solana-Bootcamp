@@ -1,5 +1,3 @@
-# Solana-Bootcamp-EWHA
-
 <div align="center">
   <h1>
     <code>Deploy your first Solana Program!</code>
