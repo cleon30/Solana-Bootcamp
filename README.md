@@ -68,7 +68,7 @@ Nice, now let's Initialize our Anchor Environment! For our CLI commands will not
 anchor init hello-world
 ```
 
-<img width="420" alt="image" src="https://user-images.githubusercontent.com/62452212/193345096-80f4bd9d-f754-40c3-acfa-5962beff67e5.png"><img width="580" alt="image" src="https://user-images.githubusercontent.com/62452212/193343642-9c567245-ac3e-4479-9cd9-9631b4cf0d4c.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/62452212/193345096-80f4bd9d-f754-40c3-acfa-5962beff67e5.png"><img width="550" alt="image" src="https://user-images.githubusercontent.com/62452212/193343642-9c567245-ac3e-4479-9cd9-9631b4cf0d4c.png">
 
 Good! Now we are ready to play with CLI commands :) 
 
