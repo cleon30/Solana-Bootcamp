@@ -87,6 +87,16 @@ After that, let's create a Validator on our Localhost to initialize our own Sola
 solana-test-validator
 ```
 
+It should appear something like this:
+
+<img width="912" alt="image" src="https://user-images.githubusercontent.com/62452212/193347096-767232be-98af-4e4c-8a55-19a9cc34c121.png">
+
+Now, let's try to send some SOL to our wallet address with the airdrop command.
+
+```bash
+solana airdrop 200 ~/.config/solana/id.json
+```
+
 
 ### **4.3 Fungible Tokens**r
 
