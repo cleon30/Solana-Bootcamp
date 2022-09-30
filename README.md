@@ -89,7 +89,7 @@ solana-test-validator
 
 It should appear something like this:
 
-<img width="912" alt="image" src="https://user-images.githubusercontent.com/62452212/193347096-767232be-98af-4e4c-8a55-19a9cc34c121.png">
+<img width="512" alt="image" src="https://user-images.githubusercontent.com/62452212/193347096-767232be-98af-4e4c-8a55-19a9cc34c121.png">
 
 Now, let's try to send some SOL to our wallet address with the airdrop command.
 
