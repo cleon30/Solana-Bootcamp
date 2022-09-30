@@ -16,6 +16,7 @@
 - 1 [Presentation](#1-presentation) 
 - 2 [Introduction](#2-introduction) 
 - 3 [Requirements/Installation](#3-requirementsinstallation) 
+  - 3 [Prerequirements if you are using Windows](#31-requirementsinstallation) 
 - 4 [Command Line Interface(CLI)](#4-command-line-interfacecli) 
   - 4.1 [Getting Started with your Anchor project!](#41-getting-started-with-your-anchor-project) 
   - 4.2 [Working on localhost](#42-working-on-localhost)
@@ -41,7 +42,7 @@ This workshop will be conducted by cleon in the ewhachain Bootcamp at the Dreamp
 
 The requirements to get started will depend on your OS.
 
-### **3. Prerequirements if you are using Windows**
+### **3.1 Prerequirements if you are using Windows**
 
 First, you will need to install wsl(Windows Subsystem for Linux) on your computer because Anchor is not windows friendly. 
 When you have completed that, you will have to integrate the wsl on Visual Studio Code to be able to work with the terminal. 
