@@ -191,6 +191,7 @@ You can check the token details with
 ```bash
 spl-token account-info <Token ID>
 ```
+<img width="1022" alt="image" src="https://user-images.githubusercontent.com/62452212/193357022-6cea7e79-1e6e-4f82-a4a3-84b39f0c937e.png">
 
 ## **5. Deploy your first Solana Program**
 
