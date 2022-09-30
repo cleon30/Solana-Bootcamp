@@ -63,7 +63,9 @@ We will have to open an empty folder that will be used for our Solana Project. A
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/62452212/193342404-d9945fb0-d496-4d88-a2af-932748719fcd.png">
 
 Nice, now let's Initialize our Anchor Environment! For our CLI commands will not be necessary at all, but will be useful in order to know where is your Solana Wallet inside your computer.
-```anchor init counter
+
+```bash
+anchor init counter
 ```
 
 <img width="914" alt="image" src="https://user-images.githubusercontent.com/62452212/193343642-9c567245-ac3e-4479-9cd9-9631b4cf0d4c.png">
