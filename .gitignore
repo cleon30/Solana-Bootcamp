@@ -3,3 +3,6 @@ target
 test-ledger
 yarn.lock
 .DS_Store
+.anchor
+dist
+build
