@@ -99,7 +99,10 @@ solana airdrop 200 ~/.config/solana/id.json
 ```bash
 solana account ~/.config/solana/id.json
 ```
-<img width="564" alt="image" src="https://user-images.githubusercontent.com/62452212/193348163-48889cec-66b4-4fbd-96b2-b44b3936fe82.png">
+```bash
+solana config set --keypair ~/.config/solana/id.json
+```
+<img width="552" alt="image" src="https://user-images.githubusercontent.com/62452212/193349615-dcc083e0-9669-405c-a6a3-765f9f1c1176.png">
 
 
 ### **4.3 Fungible Tokens**r
