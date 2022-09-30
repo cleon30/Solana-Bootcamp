@@ -152,6 +152,20 @@ If you want a summary of the tokens that you own use:
 ```bash
 spl-token accounts
 ```
+
+#### **Transfering Tokens**
+
+```bash
+spl-token transfer <Token ID> <amount> <destination>
+```
+Note that the destination account must already be set up for that token
+If the account is not already setup for that token you can use:
+```bash
+spl-token transfer --fund-recipient <Token ID> <amount> <destination> --allow-unfunded-recipient
+```
+<img width="639" alt="image" src="https://user-images.githubusercontent.com/62452212/193354179-3f93b85c-3ade-449e-b3f2-03d524119100.png">
+
+
 ### **4.4 Non Fungible Tokens(NFT)**
 
 ## **5. Deploy your first Solana Program**
