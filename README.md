@@ -206,6 +206,24 @@ So, our environment look something like this:
 
 In the picture, you can see three different colors representing the most relevant parts of the project: red-Smart Contract, blue-tests, green-project configuration.
 
+For building and compiling our smart contract we will use 
+```bash 
+anchor build
+```
+And for deploying to the Solana Blockchain we will use
+```bash 
+anchor deploy
+```
+(make sure you have enough SOL in the wallet, if not it will fail) 
+
+Finally, for testing we will use
+
+```bash
+anchor run test 
+```
+
+Also need to mention that if we are working on Localhost, we must have a validator running.
+
 ### **5.2 Hello Solana World! ☀️**
 
 ### **5.3 Basic Counter 📝**
