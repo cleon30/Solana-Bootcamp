@@ -24,8 +24,8 @@ describe("Tests for example1-lottery", async () => {
   before(async () => {
     // Top up all acounts that will need lamports for account creation
     await airdrop(provider.connection, player1, 2);
-    await airdrop(provider.connection, player2,2);
-    await airdrop(provider.connection, lottery_admin,2);
+    await airdrop(provider.connection, player2, 2);
+    await airdrop(provider.connection, lottery_admin, 2);
     await airdrop(provider.connection, skintPlayer3, 0.4);
    
   });
