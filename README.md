@@ -201,7 +201,8 @@ spl-token account-info <Token ID>
 We already have created our Anchor environment, so the next step will be to understand the most important parts!
 
 So, our environment look something like this:
-<img width="226" alt="image" src="https://user-images.githubusercontent.com/62452212/193358066-e0bfa16b-d51a-421f-a003-b277b476897c.png">
+
+<img width="180" alt="image" src="https://user-images.githubusercontent.com/62452212/193358066-e0bfa16b-d51a-421f-a003-b277b476897c.png">
 
 In the picture, you can see three different colors representing the most relevant parts of the project: red-Smart Contract, blue-tests, green-project configuration.
 
