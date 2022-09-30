@@ -21,12 +21,12 @@
   - 4.2 [Working on localhost](#42-working-on-localhost)
   - 4.3 [Fungible Tokens](#43-fungible-tokens)
   - 4.4 [Non Fungible Tokens(NFT)](#44-non-fungible-tokensnft)
-- 5 Build your First Anchor Project 
-  - 5.1 [Structure of an Anchor Project](#44-non-fungible-tokensnft)
-  - 5.2 [Hello Solana World!](#44-non-fungible-tokensnft)
-  - 5.3 [Basic Counter 📝](#44-non-fungible-tokensnft)
-  - 5.4 [Advanced Counter](#44-non-fungible-tokensnft)
-  - 5.5 [Lottery](#44-non-fungible-tokensnft)
+- 5 [Build your First Anchor Project](#5-build-your-first-anchor-project)
+  - 5.1 [Structure of an Anchor Project](#51-structure-of-an-anchor-project)
+  - 5.2 [Hello Solana World!](#52-hello-solana-world-%EF%B8%8F)
+  - 5.3 [Basic Counter 📝](#53-basic-counter-)
+  - 5.4 [Advanced Counter](#54-advanced-counter)
+  - 5.5 [Lottery](#55-lottery-)
 
 5. 
 ## **1. Presentation**
