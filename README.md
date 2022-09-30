@@ -91,6 +91,8 @@ It should appear something like this:
 
 <img width="512" alt="image" src="https://user-images.githubusercontent.com/62452212/193347096-767232be-98af-4e4c-8a55-19a9cc34c121.png">
 
+Good! The Validator will be running in that terminal, so let's open another terminal.
+
 Now, let's try to send some SOL to our wallet address with the airdrop command.
 
 ```bash
@@ -167,6 +169,28 @@ spl-token transfer --fund-recipient <Token ID> <amount> <destination> --allow-un
 
 
 ### **4.4 Non Fungible Tokens(NFT)**
+
+To create an NFT we must create a Token with 0 decimals.
+```bash
+spl-token create-token --decimals 0
+```
+Setup an associated account as a fungible token 
+```bash
+spl-token create-account <Token ID>
+```
+Then, we must mint 1 Token to that account
+```bash
+spl-token mint <Token ID> 1 <Account>
+```
+
+And finally, we must disable future minting 
+```bash
+spl-token authorize <Token ID> mint --disable
+```
+You can check the token details with
+```bash
+spl-token account-info <Token ID>
+```
 
 ## **5. Deploy your first Solana Program**
 
