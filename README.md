@@ -96,6 +96,10 @@ Now, let's try to send some SOL to our wallet address with the airdrop command.
 ```bash
 solana airdrop 200 ~/.config/solana/id.json
 ```
+```bash
+solana account ~/.config/solana/id.json
+```
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/62452212/193348163-48889cec-66b4-4fbd-96b2-b44b3936fe82.png">
 
 
 ### **4.3 Fungible Tokens**r
