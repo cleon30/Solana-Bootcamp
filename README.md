@@ -35,9 +35,21 @@ https://docs.google.com/presentation/d/1VigV00PPIHhIcho0MaThDdaWgQjlZyq2mqL2JqV_
 
 ## **2. Introduction**
 
-This is a practical season for beginners 
+This workshop will be conducted by cleon in the ewhachain Bootcamp at the Dreamplus Gangnam building. Will be an introductory workshop to start playing with CLI commands, and also to start creating Solana Programs, understanding the logic behind them.   
 
 ## **3. Requirements/Installation**
+
+The requirements to get started will depend on your OS.
+
+### **3. Prerequirements if you are using Windows**
+
+First, you will need to install wsl(Windows Subsystem for Linux) on your computer because Anchor is not windows friendly. 
+When you have completed that, you will have to integrate the wsl on Visual Studio Code to be able to work with the terminal. 
+Now you are ready to install everything :)
+### **Installation**
+
+You will have to install Rust Programming language, Solana, Yarn and Anchor. There is a brief tutorial in: https://book.anchor-lang.com/getting_started/installation.html
+
 
 ## **4. Command Line Interface(CLI)**
 
