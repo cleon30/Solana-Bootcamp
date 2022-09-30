@@ -19,11 +19,13 @@
 - 2 [Introduction](#2-introduction) 
 - 3 [Requirements/Installation](#3-requirementsinstallation) 
 - 4 [Command Line Interface(CLI)](#4-command-line-interfacecli) 
-  - 4.1 [Getting Started with your Anchor project!](#getting-started-with-your-anchor-project) 
-  - 4.2 [Working on localhost](#working-on-localhost)
-  - 4.3 [Fungible Tokens](#fungible-tokens)
-  - 4.4 [Non Fungible Tokens(NFT)](#non-fungible-tokensnft)
-6. 
+  - 4.1 [Getting Started with your Anchor project!](#41-getting-started-with-your-anchor-project) 
+  - 4.2 [Working on localhost](#42-working-on-localhost)
+  - 4.3 [Fungible Tokens](#43-fungible-tokens)
+  - 4.4 [Non Fungible Tokens(NFT)](#44-non-fungible-tokensnft)
+
+
+5. 
 ## **1. Presentation**
 
 ## **2. Introduction**
