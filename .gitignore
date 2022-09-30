@@ -2,3 +2,4 @@ node_modules
 target
 test-ledger
 yarn.lock
+.DS_Store
