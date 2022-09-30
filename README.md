@@ -23,7 +23,7 @@
 
 4. [Command Line Interface(CLI)](#command-line-interfacecli) 
 
-5. [Introduction](#introduction) 
+  4.1. [Getting Started with your Anchor project!](#introduction) 
 6. 
 ## **Presentation**
 
