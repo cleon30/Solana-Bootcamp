@@ -24,13 +24,13 @@
   - 4.3 [Fungible Tokens](#fungible-tokens)
   - 4.4 [Non Fungible Tokens(NFT)](#non-fungible-tokensnft)
 6. 
-## **Presentation**
+## **1. Presentation**
 
-## **Introduction**
+## **2. Introduction**
 
-## **Requirements/Installation**
+## **3. Requirements/Installation**
 
-## **Command Line Interface(CLI)**
+## **4. Command Line Interface(CLI)**
 
 ### **Getting Started with your Anchor project!**
 
