@@ -21,7 +21,7 @@
 
 3. [Requirements/Installation](#requirementsinstallation) 
 
-4. [Command Line Interface(CLI)](#commandlineinterfacecli) 
+4. [Command Line Interface(CLI)](#command-line-interfacecli) 
 
 5. [Introduction](#introduction) 
 6. 
