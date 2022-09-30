@@ -20,33 +20,14 @@ describe("Tests for example1-lottery", async () => {
 
   // Get program IDL for rock-paper-scissor
   const program = anchor.workspace.Lottery as anchor.Program<Lottery>;
-
+  
   before(async () => {
     // Top up all acounts that will need lamports for account creation
-    await provider.connection.confirmTransaction(
-      await provider.connection.requestAirdrop(
-        player1.publicKey,
-        2 * LAMPORTS_PER_SOL
-      )
-    );
-    await provider.connection.confirmTransaction(
-      await provider.connection.requestAirdrop(
-        player2.publicKey,
-        2 * LAMPORTS_PER_SOL
-      )
-    );
-    await provider.connection.confirmTransaction(
-      await provider.connection.requestAirdrop(
-        lottery_admin.publicKey,
-        2 * LAMPORTS_PER_SOL
-      )
-    );
-    await provider.connection.confirmTransaction(
-      await provider.connection.requestAirdrop(
-        skintPlayer3.publicKey,
-        0.4 * LAMPORTS_PER_SOL
-      )
-    );
+    await airdrop(provider.connection, player1, 2);
+    await airdrop(provider.connection, player2,2);
+    await airdrop(provider.connection, lottery_admin,2);
+    await airdrop(provider.connection, skintPlayer3, 0.4);
+   
   });
 
   it("Creates a lottery account", async () => {
@@ -283,4 +264,16 @@ describe("Tests for example1-lottery", async () => {
     let endBalanace = await provider.connection.getBalance(player2.publicKey);
     expect(endBalanace).to.be.greaterThan(startBalance);
   });
+  async function airdrop(connection, destinationWallet, amount) {
+    const airdropSignature = await connection.requestAirdrop(destinationWallet.publicKey, 
+      amount * anchor.web3.LAMPORTS_PER_SOL);
+    
+    const latestBlockHash = await connection.getLatestBlockhash();
+  
+    const tx = await connection.confirmTransaction({
+      blockhash: latestBlockHash.blockhash,
+      lastValidBlockHeight: latestBlockHash.lastValidBlockHeight,
+      signature: airdropSignature
+    });
+  }
 });

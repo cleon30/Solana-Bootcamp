@@ -5,6 +5,7 @@ skip-lint = false
 counter = "9MGFR88uofDVcjHx3hoy2jmRtcnfMdQUbYRHCFFJFuXC"
 hello_world = "A1zvqBnV7LPeCmSVg15CpFVUz8XEUh7aaGQwSB3WujgY"
 lottery ="9FGeLV2TcxMR8sx8qjojzCU9Tk25NiUF1G9ZXDNjXy31"
+calculator = "GaPG5CMtycjVuhWV7GezNc2W7BfDRhomH5Yq2hpLJYcz"
 [registry]
 url = "https://api.apr.dev"
 
@@ -17,3 +18,4 @@ test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
 hello_world = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/hello_world.ts"
 lottery = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/lottery.ts"
 counter = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/counter.ts"
+calculator = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/calculator.ts"
