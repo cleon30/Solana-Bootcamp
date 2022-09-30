@@ -16,7 +16,7 @@
 - 1 [Presentation](#1-presentation) 
 - 2 [Introduction](#2-introduction) 
 - 3 [Requirements/Installation](#3-requirementsinstallation) 
-  - 3 [Prerequirements if you are using Windows](#31-requirementsinstallation) 
+  - 3 [Prerequirements if you are using Windows](#31-prerequirements-if-you-are-using-windows) 
 - 4 [Command Line Interface(CLI)](#4-command-line-interfacecli) 
   - 4.1 [Getting Started with your Anchor project!](#41-getting-started-with-your-anchor-project) 
   - 4.2 [Working on localhost](#42-working-on-localhost)
