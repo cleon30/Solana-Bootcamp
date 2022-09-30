@@ -24,7 +24,7 @@
 - 5 Build your First Anchor Project 
   - 5.1 [Structure of an Anchor Project](#44-non-fungible-tokensnft)
   - 5.2 [Hello Solana World!](#44-non-fungible-tokensnft)
-  - 5.3 [Basic Counter ➕📝](#44-non-fungible-tokensnft)
+  - 5.3 [Basic Counter 📝](#44-non-fungible-tokensnft)
   - 5.4 [Advanced Counter](#44-non-fungible-tokensnft)
   - 5.5 [Lottery](#44-non-fungible-tokensnft)
 
@@ -49,6 +49,11 @@
 
 ### **5.1 Structure of an Anchor Project**
 
-### **5.2 Hello Solana ☀️ World!**
-### **4.4 Non Fungible Tokens(NFT)**
+### **5.2 Hello Solana World! ☀️**
+
+### **5.3 Basic Counter 📝**
+
+### **5.4 Advanced Counter**
+
+### **5.5 Lottery 🎟🎰**
 
