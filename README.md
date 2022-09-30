@@ -60,7 +60,8 @@ The CLI is a very important tool for Blockchain Devs and will be useful to check
 
 We will have to open an empty folder that will be used for our Solana Project. After that, we will open a new Terminal.
 
-<img width="301.75" alt="image" src="https://user-images.githubusercontent.com/62452212/193341637-c115114f-4c57-4a83-9474-6c767fb7dee2.png"><img width="301.75" alt="image" src="https://user-images.githubusercontent.com/62452212/193342150-40a6f575-a170-484d-9dad-4e3201ee76b3.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/62452212/193342404-d9945fb0-d496-4d88-a2af-932748719fcd.png">
+
 
 
 
