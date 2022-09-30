@@ -26,7 +26,7 @@
   - 5.2 [Hello Solana World!](#52-hello-solana-world-%EF%B8%8F)
   - 5.3 [Basic Counter 📝](#53-basic-counter-)
   - 5.4 [Advanced Counter](#54-advanced-counter)
-  - 5.5 [Extra:Lottery](#55-lottery-)
+  - 5.5 [Extra:Lottery](#55-extra-lottery-)
 
 ## **1. Presentation**
 
