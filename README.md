@@ -117,7 +117,7 @@ spl-token create-token
 ```
 You should see something like:
 
-<img width="473" alt="image" src="https://user-images.githubusercontent.com/62452212/193350609-3257f678-612f-4ffe-9b1b-12bf85a669c1.png">
+<img width="673" alt="image" src="https://user-images.githubusercontent.com/62452212/193350609-3257f678-612f-4ffe-9b1b-12bf85a669c1.png">
 
 Note that this doesn't have a supply yet
 You can test this with
@@ -130,7 +130,7 @@ Now create an account to hold the token
 ```bash
 spl-token create-account <Token ID>
 ```
-<img width="450" alt="image" src="https://user-images.githubusercontent.com/62452212/193351691-579c18dc-9781-44cd-baee-466ee7e0866a.png">
+<img width="650" alt="image" src="https://user-images.githubusercontent.com/62452212/193351691-579c18dc-9781-44cd-baee-466ee7e0866a.png">
 
 Mint some tokens into that account
 
@@ -138,7 +138,7 @@ Mint some tokens into that account
 spl-token mint <Token ID> 21000000
 ```
 
-<img width="450" alt="image" src="https://user-images.githubusercontent.com/62452212/193351994-8650ed0f-6e2d-48af-9b76-f017c9f20618.png">
+<img width="650" alt="image" src="https://user-images.githubusercontent.com/62452212/193351994-8650ed0f-6e2d-48af-9b76-f017c9f20618.png">
 
 You can check the token balance for an account with
 ```bash
