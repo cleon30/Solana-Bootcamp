@@ -74,7 +74,19 @@ Good! Now we are ready to play with CLI commands :)
 
 ### **4.2 Working on localhost**
 
-In this workshop we will be working on Localhost, this means that we will be running a Solana Blockchain inside our computer. For that we will also need to create a validator. 
+In this workshop we will be working on Localhost, this means that we will be running a Solana Blockchain inside our computer. For that we will also need to create a validator.
+First, let's set our network to Localhost.
+
+```bash
+solana config set --url localhost
+```
+
+After that, let's create a Validator on our Localhost to initialize our own Solana Blockchain
+
+```bash
+solana-test-validator
+```
+
 
 ### **4.3 Fungible Tokens**r
 
