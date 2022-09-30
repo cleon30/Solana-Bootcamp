@@ -19,9 +19,9 @@
 
 2. [Introduction](#introduction) 
 
-3. [Requirements/Installation](#requirements/installation) 
+3. [Requirements/Installation](#requirementsinstallation) 
 
-4. [Introduction](#introduction) 
+4. [Command Line Interface(CLI)](#commandlineinterfacecli) 
 
 5. [Introduction](#introduction) 
 6. 
