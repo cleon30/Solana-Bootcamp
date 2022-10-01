@@ -23,15 +23,26 @@ pub mod calculator {
         Ok(())
     }
 
-    pub fn update_counter(ctx: Context<UpdateCounter>) -> Result<()> {
-
-        msg!("Adding 1 to the counter!!");
+    pub fn update_counter(ctx: Context<UpdateCounter>, input_number: u64, operation: String) -> Result<()> {
 
         let counter = &mut ctx.accounts.counter;
-        counter.count += 1 ;
-
-        msg!("Current count is {}", counter.count);
-        msg!("{} remaining to reach 1000 ", 1000-counter.count);
+        
+        match operation.as_str(){
+            
+            "add" =>{
+                        counter.count = counter.count.checked_add(input_number).unwrap();
+                    },
+            "subtract"=>{
+                        counter.count= counter.count.checked_sub(input_number).unwrap();
+                    },   
+            "multiply"=>{
+                        counter.count= counter.count.checked_mul(input_number).unwrap();
+                    },
+            "divide"=>{
+                        counter.count= counter.count.checked_div(input_number).unwrap();
+                    },
+            _=>msg!("operation not valid"),
+        }
 
         Ok(())
     }
