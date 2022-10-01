@@ -301,6 +301,12 @@ anchor run calculator
 
 This was an example made by Encode Club <3
 
+```bash
+anchor build
+anchor deploy
+anchor run lottery
+```
+
 <img width="581" alt="image" src="https://user-images.githubusercontent.com/62452212/193417604-790dd114-8ccf-4a94-a75b-d2f6d8d583e8.png">
 
 <img width="645" alt="image" src="https://user-images.githubusercontent.com/62452212/193417621-af28e4c9-703e-48be-9066-f1d9200cbcc1.png">
