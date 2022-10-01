@@ -291,5 +291,19 @@ anchor run counter
 
 ### **5.4 Advanced Counter**
 
+```bash
+anchor build
+anchor deploy
+anchor run calculator
+```
+
 ### **5.5 Extra: Lottery 🎰**
+
+This was an example made by Encode Club <3
+
+<img width="581" alt="image" src="https://user-images.githubusercontent.com/62452212/193417604-790dd114-8ccf-4a94-a75b-d2f6d8d583e8.png">
+
+<img width="645" alt="image" src="https://user-images.githubusercontent.com/62452212/193417621-af28e4c9-703e-48be-9066-f1d9200cbcc1.png">
+
+<img width="640" alt="image" src="https://user-images.githubusercontent.com/62452212/193417640-68b7494a-690e-4734-b8c1-3142cd6f14e1.png">
 
