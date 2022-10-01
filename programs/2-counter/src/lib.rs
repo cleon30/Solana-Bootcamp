@@ -1,8 +1,7 @@
 use anchor_lang::prelude::*;
-declare_id!("9MGFR88uofDVcjHx3hoy2jmRtcnfMdQUbYRHCFFJFuXC");
-const DISCRIMINATOR_LENGTH: usize = 8;
-const PUBKEY_LENGTH: usize = 32;
-const UNSIGNED64_LENGTH: usize = 8;
+
+declare_id!("9VVxDy7vTHzZRjvZssESmAJps4HhbBH3hR6obLz39WGf");
+
 #[program]
 
 pub mod counter {
@@ -43,7 +42,7 @@ pub mod counter {
 pub struct CreateCounter<'info> {
     #[account(mut)]
     authority: Signer<'info>,
-    #[account(init, seeds=[authority.key().as_ref()], bump, payer=authority, space=Counter::LEN)]
+    #[account(init, seeds=[authority.key().as_ref()], bump, payer=authority, space=100)]
     counter: Account<'info, Counter>,
     system_program: Program<'info, System>,
 }
@@ -62,6 +61,3 @@ pub struct Counter {
     count: u64,
 }
 
-impl Counter {
-    const LEN: usize = DISCRIMINATOR_LENGTH + PUBKEY_LENGTH + UNSIGNED64_LENGTH;
-}
