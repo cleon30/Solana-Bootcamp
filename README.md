@@ -282,6 +282,8 @@ To get started for the next programs, please git clone this project.
 git clone https://github.com/cleon30/Solana-Bootcamp-EWHA.git
 ```
 
+Explanation will be given on-site. We will create a counter that every time is called, it adds 1 to the count!
+
 ```bash
 anchor build
 anchor deploy
@@ -290,6 +292,9 @@ anchor run counter
 
 
 ### **5.4 Advanced Counter**
+
+
+Explanation will be given on-site. We will create a similar version to the previous counter but this time we will allow to select the operation and number we want to apply to the counter.
 
 ```bash
 anchor build
