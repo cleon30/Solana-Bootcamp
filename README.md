@@ -221,10 +221,51 @@ Finally, for testing we will use
 ```bash
 anchor run test 
 ```
-
 Also need to mention that if we are working on Localhost, we must have a validator running.
 
 ### **5.2 Hello Solana World! ☀️**
+
+Noice.
+Now we are ready for our First solana program :D
+Basically the First Program will consist of a simple message inside the Blockchain.
+<img width="489" alt="image" src="https://user-images.githubusercontent.com/62452212/193385007-579b8a26-4c2b-4a2e-96f9-9aa54a085299.png">
+
+Now let's build and compile it
+```bash
+anchor build
+```
+Everything good? Now let's get some SOL Airdrop to our Project Wallet before deploying our program to the Blockchain.
+```bash
+solana airdrop 200 ~/.config/solana/id.json
+```
+```bash
+anchor deploy
+```
+After you deploy your program, you will receive a new Program ID. This ID will be the account that is storing the program in our blockchain! So basically it will recognise our Program using this ID.
+
+<img width="553" alt="image" src="https://user-images.githubusercontent.com/62452212/193385706-65404826-9dbc-4e7c-bfd9-c88a66d62b54.png">
+
+Now let's copy this Program ID and add it to our files. We will have to change the Program ID inside the lib.rs file, and the Program ID inside Anchor.toml
+
+<img width="417" alt="image" src="https://user-images.githubusercontent.com/62452212/193385830-885509d8-d4d8-4d53-9f7b-8394a5d0a0d9.png">
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/62452212/193385848-ad34268e-999f-4bf0-9d6d-ed2a43db01c9.png">
+
+*Important* - We will have to compile and deploy again to make it work
+
+```bash
+anchor build && anchor deploy
+```
+Before testing it, let's open an additional terminal and write
+```bash
+solana logs
+```
+Using this command we will see all the interactions that are happening on our Localhost blockchain. So, we will see what is happening in the transactions on-chain.
+
+Let's test our program then
+```bash
+anchor run test
+```
+
 
 ### **5.3 Basic Counter 📝**
 
