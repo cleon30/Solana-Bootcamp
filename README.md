@@ -266,7 +266,9 @@ Let's test our program then
 ```bash
 anchor run test
 ```
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/62452212/193386464-8b376e4c-88d0-475f-a2ab-039dcf990437.png">
 
+And now, let's see what happened on Solana Logs 👀
 
 ### **5.3 Basic Counter 📝**
 
