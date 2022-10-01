@@ -228,6 +228,7 @@ Also need to mention that if we are working on Localhost, we must have a validat
 Noice.
 Now we are ready for our First solana program :D
 Basically the First Program will consist of a simple message inside the Blockchain.
+
 <img width="489" alt="image" src="https://user-images.githubusercontent.com/62452212/193385007-579b8a26-4c2b-4a2e-96f9-9aa54a085299.png">
 
 Now let's build and compile it
