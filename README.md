@@ -51,6 +51,8 @@ Now you are ready to install everything :)
 
 You will have to install Rust Programming language, Solana, Yarn and Anchor. There is a brief tutorial in: https://book.anchor-lang.com/getting_started/installation.html
 
+<img width="644" alt="image" src="https://user-images.githubusercontent.com/62452212/193418486-5314f745-3797-46a8-9a6d-17087506ca08.png">
+
 
 ## **4. Command Line Interface(CLI)**
 
