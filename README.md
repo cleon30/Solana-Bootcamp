@@ -266,13 +266,13 @@ Let's test our program then
 ```bash
 anchor run test
 ```
-<img width="420" alt="image" src="https://user-images.githubusercontent.com/62452212/193386464-8b376e4c-88d0-475f-a2ab-039dcf990437.png">
+<img width="620" alt="image" src="https://user-images.githubusercontent.com/62452212/193386464-8b376e4c-88d0-475f-a2ab-039dcf990437.png">
 
 And now, let's see what happened on Solana Logs 👀
 
 Here it is! We have just log a message on Solana.
 
-<img width="4501" alt="image" src="https://user-images.githubusercontent.com/62452212/193386513-bbf8751d-d662-4ec2-ba6d-80c556d5482f.png">
+<img width="2000" alt="image" src="https://user-images.githubusercontent.com/62452212/193386513-bbf8751d-d662-4ec2-ba6d-80c556d5482f.png">
 
 ### **5.3 Basic Counter 📝**
 
