@@ -276,6 +276,19 @@ Here it is! We have just log a message on Solana.
 
 ### **5.3 Basic Counter 📝**
 
+To get started for the next programs, please git clone this project.
+
+```bash
+git clone https://github.com/cleon30/Solana-Bootcamp-EWHA.git
+```
+
+```bash
+anchor build
+anchor deploy
+anchor run counter
+```
+
+
 ### **5.4 Advanced Counter**
 
 ### **5.5 Extra: Lottery 🎰**
