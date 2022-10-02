@@ -32,7 +32,7 @@
 ## **1. Presentation**
 
 In this workshop you will be hands-on building and deploying Solana Programs! 
-https://docs.google.com/presentation/d/1VigV00PPIHhIcho0MaThDdaWgQjlZyq2mqL2JqV_JxI/edit?usp=sharing
+
 
 ## **2. Introduction**
 
